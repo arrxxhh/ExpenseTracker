@@ -29,3 +29,7 @@ const authRoutes = require("./routes/authRoutes");
 
 // Use authentication routes
 app.use("/api/auth", authRoutes);
+
+const expenseRoutes = require("./routes/expenseRoutes");
+
+app.use("/api/expenses", expenseRoutes);
